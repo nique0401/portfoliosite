@@ -2,9 +2,10 @@
     box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
-    background-color: #323C40;
     max-width: 1000px;
+    background-color: #323C40;
   }
+
   .center-image {
   text-align: center;
 }
@@ -15,6 +16,7 @@
   float:left;
   text-align: center;
   position: fixed;
+  background-color: transparent;
   color: grey;
 }
 .sidebar-img {
@@ -35,10 +37,6 @@ header::after {
   content: "";
   display: table;
   clear: both;
-}
-.container {
-  width: 90%;
-  float: right;
 }
 .header-name {
   box-sizing: border-box;
@@ -66,10 +64,19 @@ header::after {
   margin-bottom: 15px;
   color:white;
 }
+.works{
+  height:40%;
+  width:40%;
+  clear: both;
+}
+h3 {
+  text-align: center;
+}
 nav {
   clear: right;
   float: right;
-  max-width: 95%;
+  width:80%;
+  max-width: 100%;
 }
 nav ul {
   margin: 0px;
@@ -112,22 +119,14 @@ nav ul a:hover::before {
 }
 .main {
   float: right;
-  max-width: 85%;
+  max-width: 100%;
   color:white;
 }
 .mywork {
   max-width: 100%;
   max-height: 400px;
 }
-.works {
-  max-width:25%;
-  min-width: 25%;
 
-  float: right;
-  margin: 4%;
-  color: white;
-  width: 100%;
-}
 h1 {
   clear: both;
   text-align: center;

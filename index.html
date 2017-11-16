@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <title>Dominique Schaefer's Portfolio Website</title>
-    <link rel="stylesheet" media="screen and (min-width:471px) and (max-width:2000px)" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" media="screen and (max-width: 470px)" href="css/under470.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </head>
   <body>
 
     <section class="sidebar">
       <!--Sidebar that display's social media and career profile websites using
       Logos as links-->
-      <h3>Social Media</h3>
       <a class="sidebar-photo" href="https://www.facebook.com/nique0401"><img
         class="sidebar-img" alt="facebook Logo"
         src="http://www.symbols.com/gi.php?type=1&id=2873"></a>
@@ -36,35 +36,29 @@
         <nav>
           <!--Navigation links to future pages-->
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="aboutme.html">About Me</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contactme.html">Contact Me</a></li>
+            <li class="col-md-2 col-sm-2 col-xs-12 hidden-xs"><a href="index.html">Home</a></li>
+            <li class="col-md-2 col-sm-2 col-xs-12 hidden-xs"><a href="aboutme.html">About Me</a></li>
+            <li class="col-md-2 col-sm-2 col-xs-12 hidden-xs"><a href="projects.html">Projects</a></li>
+            <li class="col-md-2 col-sm-2 col-xs-12 hidden-xs"><a href="contactme.html">Contact Me</a></li>
           </ul>
         </nav>
+        <img class="sample-code" alt="photo of fake coding"
+        src="https://www.warlegend.net/wp-content/uploads/source-code_blog.jpg">
       </div>
     </header>
     <section class="main">
       <!--Main page, has photo, and summary of recent projects-->
       <div class="container">
-        <img class="sample-code" alt="photo of fake coding"
-        src="https://www.warlegend.net/wp-content/uploads/source-code_blog.jpg">
-        <h1>Featured Work</h1>
-        <div class="mywork">
-          <!--Photos that identify my recent works-->
-          <a href="https://github.com/nique0401/MovieTrailerWebsite"><img
-            class="works" alt="Movie Clipart"
-            src="http://clipartix.com/wp-content/uploads/2016/04/Movie-clipart.jpg"></a>
-          <a href="index.html"><img
-            class="works" alt="blank profile" src="http://orig02.deviantart.net/9fe8/f/2012/199/4/3/eddsworld___unknown_profile_by_xnamenloserx-d57qvfm.jpg"></a>
-          <a href="index.html"><img
-            class="works" alt="under construction" src="http://images.clipartpanda.com/under-construction-clipart-under-constr-01.jpg"></a>
-        </div>
-        <div class="mywork">
-          <!--Descripitions of recent works-->
-          <div class="work-desc">Movie Trailer Website</div>
-          <div class="work-desc">Portfolio Website</div>
-          <div class="work-desc">Currently under-way</div>
+        <!--Photos that identify my recent works-->
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"><h3>Movie Trailer Website</h3><a href="https://github.com/nique0401/MovieTrailerWebsite"><img
+            class="works center-block" alt="Movie Clipart"
+            src="http://clipartix.com/wp-content/uploads/2016/04/Movie-clipart.jpg"></a></div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"><h3>Portfolio Webpage</h3><a href="index.html"><img
+            class="works center-block" alt="blank profile" src="http://orig02.deviantart.net/9fe8/f/2012/199/4/3/eddsworld___unknown_profile_by_xnamenloserx-d57qvfm.jpg"></a></div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"><h3>Project Under Construction</h3><a href="index.html"><img
+            class="works center-block" alt="under construction" src="http://images.clipartpanda.com/under-construction-clipart-under-constr-01.jpg"></a></div>
+
         </div>
       </div>
     </section>
