@@ -5,7 +5,10 @@
     max-width: 1000px;
     background-color: #323C40;
   }
-
+#name {
+  font-size: 200%;
+  margin-top: 20px
+}
   .center-image {
   text-align: center;
 }
@@ -48,6 +51,10 @@ header::after {
   font-size: 175%;
   color: white;
   font-weight: 100;
+}
+.aboutme {
+  padding-left: 2em;
+  text-indent: 2em
 }
 .header-logo {
   box-sizing: border-box;
@@ -117,18 +124,14 @@ nav ul a:hover::before {
   max-width: 100%;
   margin-top: 20px;
 }
-.main {
-  float: right;
-  max-width: 100%;
-  color:white;
-}
 .mywork {
   max-width: 100%;
   max-height: 400px;
 }
-
+.container {
+  color:white;
+}
 h1 {
-  clear: both;
   text-align: center;
   text-decoration: underline;
   color: #7d97ad;
@@ -146,8 +149,6 @@ h1 {
 .about-me-text {
   text-align: justify;
 }
-#selfimg {
-  width: 20%;
-  float: right;
-  margin:20px
+.self {
+  vertical-align: inherit;
 }
