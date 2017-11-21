@@ -59,10 +59,11 @@ h3 {
   text-align: center;
 }
 .navbar-nav {
-  float:right;
+  float:none;
   margin: 0;
 }
 nav {
+  float: right; 
   padding-right:0px;
   list-style: none;
   max-width: 100%;
