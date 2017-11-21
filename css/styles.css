@@ -12,30 +12,6 @@
   .center-image {
   text-align: center;
 }
-.sidebar {
-  margin-top:100px;
-  width: 7%;
-  height: 250px;
-  float:left;
-  text-align: center;
-  position: fixed;
-  background-color: transparent;
-  color: grey;
-}
-.sidebar-img {
-  width: 40px;
-  height: 40px;
-  margin: 10%
-}
-.sidebar-photo {
-  width: 75px;
-  height: 75px;
-}
-.sidebar-link {
-  min-width: 48px;
-  min-height: 48px;
-  text-align: center;
-}
 header::after {
   content: "";
   display: table;
@@ -136,6 +112,9 @@ h1 {
   text-decoration: underline;
   color: #7d97ad;
 }
+.about {
+  text-align: center;
+}
 .work-desc {
   max-width:25%;
   min-width: 25%;
@@ -145,10 +124,4 @@ h1 {
   margin: 4%;
   text-align: center;
   color: white;
-}
-.about-me-text {
-  text-align: justify;
-}
-.self {
-  vertical-align: inherit;
 }
